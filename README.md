@@ -36,3 +36,14 @@ Los datos transformados se cargan en PostgreSQL en la nube usando SQLAlchemy.
 - tipos_seguro
 - polizas
 - siniestros
+
+## Consultas de análisis
+
+Una vez cargados los datos en PostgreSQL se pueden ejecutar consultas SQL para análisis.
+
+Ejemplo:
+
+- Total de clientes
+
+```sql
+SELECT COUNT(*) FROM clientes;
